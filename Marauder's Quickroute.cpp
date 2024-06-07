@@ -14,7 +14,7 @@ void print()
         maxItemWidth = max(maxItemWidth, static_cast<int>(item.length()));
     }
 
-    cout << "=======================~ CAMPUS NAVIGATOR ~=======================" << endl;
+    cout << "=======================~ INDEX ~=======================" << endl;
     for (int i = 0; i < nodes.size(); ++i)
     {
         if (i < 9)
